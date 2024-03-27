@@ -1,6 +1,12 @@
 body{
     font-family: "Poppins", sans-serif;
-    
+    margin: 0;
+}
+.top-banner{
+background-image: url(banners.jpg);
+background-size: 50px;
+background-repeat: no-repeat;
+
 }
 
 h1{
@@ -16,12 +22,13 @@ section{
 }
 
 .about{
-    width: 50%;
-    padding-left: 5%;
+    width: 70%;
+    padding-left: 15%;
 }
 
 .about img{
-    width: 40%;
+    width: 60%;
+   
 }
 
 #hire-me{
@@ -32,4 +39,26 @@ section{
     color: white;   
     font-weight: 700;
     padding: 10px;
+}
+
+
+
+.middle{
+    margin-top: 10%;
+    display: flex;
+    
+}
+
+.middle img{
+    width: 20%;
+}
+
+.middle a{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange, tomato);
 }
