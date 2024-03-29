@@ -19,19 +19,20 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
-.about{
-    width: 70%;
+.half-width{
+    width: 50%;
     padding-left: 15%;
 }
 
-.about img{
+img{
     width: 60%;
    
 }
 
-#hire-me{
+#link-button{
     text-decoration: none;
     background-color: orange;
     border-radius: 5px;
@@ -41,24 +42,7 @@ section{
     padding: 10px;
 }
 
-
-
 .middle{
-    margin-top: 10%;
-    display: flex;
+   padding: 0 15% 0 15%;
     
-}
-
-.middle img{
-    width: 20%;
-}
-
-.middle a{
-    text-decoration: none;
-    background-color: orange;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: white;
-    font-weight: 700;
-    background-image: linear-gradient(orange, tomato);
 }
