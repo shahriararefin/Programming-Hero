@@ -13,7 +13,7 @@ h1{
     font-size: 40px;
 }
 
-#peter{
+.orange-color{
     color: orange;
 }
 
@@ -48,7 +48,25 @@ img{
 }
 
 .box{
-    box-shadow: black;
-    box-sizing: border-box;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-left: 5px;
+}
+
+#front-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(salmon, tomato) 6;
     
+}
+
+#baby-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan) 8;
+
+}
+
+footer p{
+    text-align: center;
 }
