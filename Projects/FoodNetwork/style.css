@@ -4,6 +4,7 @@ body{
     background-color: rgb(253, 253, 253);
 }
 .intro{
+    margin-top: 5%;
     margin-bottom: 100px;
     padding-left: 10%;
     background-image: url(shape1.png);
@@ -21,7 +22,7 @@ body{
     width: 50%;
 }
 
-#span-color{
+.span-color{
     color: coral;
     
 }
@@ -65,7 +66,7 @@ a{
 .myrecipie{
     text-align: center;
     color: silver;
-    margin: 0 20% 0 20%;
+    margin: 5% 20% 0 20%;
 }
 
 .food-image{
@@ -90,27 +91,21 @@ a{
 }
 
 .users{
-    margin: 0 15% 0 15%;
+    margin: 0 16% 0 16%;
     
 }
 
-#YouTube{
-    padding-left: 10%;
+.align{
+    padding:0 10%;
     text-align: center;
-    margin-right: 20%;
-    border: 2px solid black;
 }
 
-#Instagram{
-    padding: 0% 10%;
+footer{
     text-align: center;
-    border: 2px solid black;
-}
+    margin-top: 5%;
+    background-color: black;
+    color: rgb(126, 127, 129);
 
-#Dribble{
-    border: 2px solid black;
-    padding-right: 10%;
-    margin-right: 0;
-    margin-left: 25%;
-    text-align: center;
+    padding-top: 5px ;
+    padding-bottom: 50px;
 }
