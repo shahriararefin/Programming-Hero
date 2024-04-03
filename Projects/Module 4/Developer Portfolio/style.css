@@ -1,30 +1,38 @@
 body{
     font-family: "Poppins", sans-serif;
-    
+    margin: 0;
+}
+.top-banner{
+background-image: url(banners.jpg);
+background-size: 50px;
+background-repeat: no-repeat;
+
 }
 
 h1{
     font-size: 40px;
 }
 
-#peter{
+.orange-color{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 
-.about{
+.half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 15%;
 }
 
-.about img{
-    width: 40%;
+img{
+    width: 60%;
+   
 }
 
-#hire-me{
+#link-button{
     text-decoration: none;
     background-color: orange;
     border-radius: 5px;
@@ -32,4 +40,33 @@ section{
     color: white;   
     font-weight: 700;
     padding: 10px;
+}
+
+.middle{
+   padding: 0 15% 0 0;
+    
+}
+
+.box{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-left: 5px;
+}
+
+#front-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(salmon, tomato) 6;
+    
+}
+
+#baby-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan) 8;
+
+}
+
+footer p{
+    text-align: center;
 }
