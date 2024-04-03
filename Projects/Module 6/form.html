@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Stark Expo</h1>
+
+    <form action="">
+        <p>
+            Name:<input type="text" name="name" placeholder="Enter Your Name">
+        </p>
+        <p>
+            Email:<input type="text" name="Email" placeholder="Enter Your Email">
+        </p>
+
+        <fieldset>
+            <legend>Select your gadget</legend>
+
+            <p>
+                <label for="Phone">
+                    <input type="radio" name="gadget" id="Phone">Phone
+                </label>
+            </p>
+            <p>
+                <label for="Watch">
+                    <input type="radio" name="gadget" id="Watch">Watch
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Select Brand
+            </legend>
+
+            <p><label for="Apple">
+                <input type="checkbox" name="Brand" id="Apple">Apple
+            </label>
+            </p>
+            <p><label for="Samsung">
+                <input type="checkbox" name="Brand" id="Samsung">Samsung
+            </label>
+            </p>
+            <p><label for="OnePlus">
+                <input type="checkbox" name="Brand" id="OnePlus">OnePlus
+            </label>
+            </p>
+        </fieldset>
+
+        <p>Special Instruction
+            <br>
+        <textarea name="Instruction" id="Instruction" cols="30" rows="10">Choose only one gadget from each brand</textarea>
+    </p>
+        <button type="submit">Confirm</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
