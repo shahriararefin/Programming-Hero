@@ -1,11 +1,29 @@
-nav ul{
+nav > ul{
     display: flex;
     
+    
 }
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    padding: 0;
+}
+
+.dropdown li{
+    margin: 0;
+
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
 nav li{
     list-style-type: none;
-    margin: 0px 15px;
-    padding: 10px;
+    margin-right: 15px;
+    padding: 5px;
 }
 
 nav li:hover{
