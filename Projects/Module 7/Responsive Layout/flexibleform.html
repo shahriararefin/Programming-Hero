@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .signup{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+
+        .signup input{
+            margin-top: 20px;
+        }
+
+        .form-container{
+            display: flex;
+            justify-content: center;
+            text-emphasis: none;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">About</a>
+        <a href="">Blog</a>
+        </div>
+        <a href="">Login</a>
+
+    </nav>
+<section class="form-container">
+    
+    <form class="signup" action="">
+        <h4>Create Account</h4>
+        <input type="email" name="email"  id="email" placeholder="Your Email" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <input type="submit" value="Create Account">
+    </form>
+</section>
+</body>
+</html>
