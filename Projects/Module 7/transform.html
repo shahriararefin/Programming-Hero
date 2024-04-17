@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container, .inner{
+            width: 100px;
+            height: 100px;
+            border: 2px solid khaki;
+        }
+
+        .container{
+            background-color: aqua;
+            
+        }
+
+        .inner{
+            background-color: lightcoral;
+
+            /* transform: scale(0.75); */
+            /* transform: rotate(45deg); */
+            transform: scale(0.75) rotate(45deg) translate(20px, 10px);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Trnsformers are coming
+    </h1>
+
+    <div class="box container">
+        <div class="inner">box-1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box-3</div>
+    </div>
+</body>
+</html>
