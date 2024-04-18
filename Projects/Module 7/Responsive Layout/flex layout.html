@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            
+            display: flex;
+            border: 2px solid #ccdf3b;
+            background-color: rgb(2, 72, 75);
+            
+            
+            
+        }
+
+        .left, .right{
+            height: 800px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .left{
+            background-color: dimgray;
+            border: 1px dashed orange;
+            margin: 5px;
+            border-radius: 10px;
+            width: 25%;
+        }
+
+        .right{
+            background-color: bisque;
+            border: 1px dashed tomato;
+            margin: 5px;
+            border-radius: 10px;
+            width: 75%;
+        }
+
+@media screen and (max-width:576px) {
+
+    .container{
+        
+        flex-direction: column;
+        
+    }
+
+    .left{
+        
+        width: 98%;
+        height: 140px;
+    }
+
+    .right{
+        width: 98%;
+    }
+
+}
+
+        
+    </style>
+
+</head>
+<body>
+    <section class="container">
+        <div class="left">
+            <h2>Left</h2>
+        </div>
+    
+        <div class="right">
+            <h2> Right</h2>
+        </div>
+    </section>
+</body>
+</html>
