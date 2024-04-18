@@ -70,3 +70,36 @@ img{
 footer p{
     text-align: center;
 }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .top-banner{
+        margin-bottom: 15px;
+    }
+
+    .middle{
+        margin-top: 5px;
+        padding-top: 10px;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+    .experience , .flexible-container{
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .half-width{
+        width: 90%;
+        padding-left: 0;
+        margin: 5px 5px;
+    }
+   
+}

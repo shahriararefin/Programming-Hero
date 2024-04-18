@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <style>
+        
 
-        .container{
-            margin: 0;
-            
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 400px) ;
+
+            gap: 5px;
         }
 
-        h1{
+        h1 {
             color: white;
+
         }
 
-        .left{
+        .red {
+            background-color: red;
+            grid-row: span 2;
+        }
+
+        .half-width {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1,400px);
+            gap: 5px;
             
         }
 
 
+        
 
-        .red{
-            background-color: red;
-        }
-
-        .orange{
+        .orange {
             background-color: orange;
+            
+
         }
 
-        .purple{
+        .purple {
             background-color: purple;
+            
         }
 
-        .silver{
+        .silver {
             background-color: silver;
+            
         }
 
+
+        @media screen and (max-width: 576px){
+            .container{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .half-width {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+            
+        }
+        }
+        
     </style>
 
 
@@ -49,25 +80,30 @@
 
 <body>
     <section class="container">
-        <div class="left">
-            <div class="red">
-                <h1>1</h1>
-            </div>
+
+        <div class="red">
+            <h1>1</h1>
         </div>
-<div class="right">
+
+
+
+        <div class="orange">
+            <h1>2</h1>
+        </div>
+
+
+        <div class="half-width">
+            <div class="purple">
+                <h1>3</h1>
+            </div>
     
-    <div class="orange">
-        <h1>2</h1>
-    </div>
+            <div class="silver">
+                <h1>4</h1>
+            </div>
+    
+        </div>
 
-    <div class="purple">
-        <h1>3</h1>
-    </div>
-
-    <div class="silver">
-        <h1>4</h1>
-    </div>
-</div>
     </section>
 </body>
+
 </html>
