@@ -50,16 +50,154 @@ li > a{
     font-size: 16;
 }
 
-.intro > button{
+button{
     color: white;
     background-color: #FF900E;
     border: none;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .banner > img{
     width: 70%;
     margin-bottom: 20px;
 }
+
+.team{
+    display: flex;
+    width: 80%;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+
+}
+
+.team-image{
+    margin-left: 250px;
+    width: 40%;
+}
+.team-image> img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.quick{
+    width: 40%;
+    color: #727272;
+}
+#black{
+    color: #000;
+}
+#orange{
+    color: #FF900E;
+}
+
+.quick > p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.architect{
+    width: 80%;
+    margin: 0% 15%;
+    display: flex;
+}
+
+.features{
+    width: 40%;
+    margin-right: 20px;
+}
+.features > h2{
+    border-left: 4px solid #FF900E;
+    padding-left: 15px;
+}
+
+.features > ul{
+
+    list-style-type: none;
+    
+}
+
+.features > ul > li{
+    
+    
+    box-shadow: 10px 10px 15px rgb(240, 239, 237);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#architect-image > img{
+    margin-left: 10px;
+    width: 708px;
+    height: 982px;
+}
+
+#box{
+    background-color: #FF900E;
+    padding: 20px;
+    width: 21%;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: -40px;
+}
+
+#year{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.facts{
+    margin: 0% 15%;
+}
+
+.facts > p{
+    color: #727272;
+}
+.achievements{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.orange-box{
+    border: 1px solid #FF900E;
+    padding: 3%;
+    text-align: center;
+    
+}
+
+.orange-box > p, .orange-box > h2{
+    font-size: 13px;
+    font-weight: 600 ;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.sponsor > p{
+    color: #727272;
+}
+
+.sponsor-logo{
+    
+    margin: 40px 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#copyright{
+    background-color:  rgba(255, 144, 14, 0.1);
+
+    padding: 10px;
+    margin: 20px 210px 100px 210px;
+}
+
