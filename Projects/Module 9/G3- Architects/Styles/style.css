@@ -258,6 +258,7 @@ footer{
     }
     .achievements{
         padding: 0;
+        flex-wrap: wrap;
     }
 
     .sponsor-logo {
@@ -271,5 +272,42 @@ footer{
     }
     #copyright{
         margin: 15px;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width:992px){
+
+    .architect {
+        width: 95%;
+        margin: 5px;
+    }
+    .features {
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    #architect-image > img {
+        width: 100%;
+    }
+
+    #box{
+        width: 50%;
+    }
+
+    .achievements{
+        flex-wrap: wrap;
+    }
+    .sponsor-logo {
+        margin: 40px 10%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    #copyright{
+        margin: 35px;
     }
 }
