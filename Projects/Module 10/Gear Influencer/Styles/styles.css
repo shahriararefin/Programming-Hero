@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 20px;
+}
+
+
