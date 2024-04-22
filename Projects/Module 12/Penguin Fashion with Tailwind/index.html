@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
+
 <body>
-    
-        
+
+    <header class="bg-[#FFFBF0] px-8">
+
+        <!-- navbar -->
+        <nav class="flex justify-between items-center">
+            <h1>
+                <img class="w-72 " src="icons/logo.png" alt="">
+            </h1>
+
+            <ul class="flex justify-around  ">
+                <li class="mr-2"><a href="">Home</a></li>
+                <li class="mr-2"><a href="">Product</a></li>
+                <li class="mr-2"><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- be the penguins -->
+        <section class="flex items-center justify-between">
+            <div>
+                <h1 class="uppercase text-yellow-400 text-7xl font-medium mb-2">Be The Penguins <br> 
+                    <span class="text-[#363958]">
+                        of winter
+                    </span>
+                </h1>
+
+                <p class="mb-3">
+                    Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                </p>
+
+                <button class="rounded-xl text-white font-medium flex items-center bg-teal-500 py-3 px-5 ">
+                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png" alt="">
+                    Buy Now
+                </button>
+            </div>
+
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
 </body>
+
 </html>
