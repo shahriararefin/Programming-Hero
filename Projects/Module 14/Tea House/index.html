@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+
+    <!-- tailwind and daisyUI cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -25,6 +27,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/8be11633a8.js" crossorigin="anonymous"></script>
+
 <!-- custom css styles -->
 <style>
     * {
@@ -38,18 +43,107 @@
 </style>
 </head>
 <body>
+
+    <!-- header section -->
     <header>
 
+        <!-- Good Tea Time -->
+        <section class="lg:flex lg:px-20 px-1 ml-2 py-10 items-center">
+            <div class="lg:flex-1 space-y-8" >
+                <h1 class="text-7xl font-extrabold">
+                    It's good <br>
+    tea time at The <br> Tea House
+                </h1>
+                <p class="text-xl font-medium">
+                    Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.
+                </p>
+    
+                <button class="btn bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white">
+                    Explore More <img class="bg-[#FF8938]" src="images/arrow.png" alt="">
+                </button>
+            </div>
+
+            <div >
+                <img class="lg:flex-1 sm:mt-4 " src="images/banner.png" alt="">
+                <div class="flex items-center gap-3 drop-shadow-md w-64 justify-center py-4 -mt-28">
+                    <i class="fa-solid fa-star text-amber-400 text-3xl"></i>
+    
+                    <div>
+                        <h2>5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+        </section>
     </header>
 
+    <!-- main section -->
     <main>
 
+        <!-- featured products -->
+        <section class="sm:justify-center items-center text-center space-y-6 lg:px-20">
+            <h2 class="text-5xl font-extrabold mt-12">
+                Our Featured Products 
+            </h2>
+
+            <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <!-- card container -->
+            <div class="py-8">
+                
+            <div class="lg:flex lg:space-x-8 ">
+                <div class="card lg:w-96  bg-base-100 shadow-xl ">
+                    <figure><img src="/Projects/Module 14/Tea House/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body ">
+                      <h2 class="card-title justify-center">Milk Tea</h2>
+                      <p class="justify-center">Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card lg:w-96 bg-base-100 shadow-xl ">
+                    <figure><img src="/Projects/Module 14/Tea House/images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body ">
+                      <h2 class="card-title justify-center">Green Tea</h2>
+                      <p class="justify-center">Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+
+                  <div class="card lg:w-96 bg-base-100 shadow-xl ">
+                    <figure><img src="/Projects/Module 14/Tea House/images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body ">
+                      <h2 class="card-title justify-center">Milk Tea</h2>
+                      <p class="justify-center">Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+
+
+                  <div class="card lg:w-96 bg-base-100 shadow-xl ">
+                    <figure><img src="/Projects/Module 14/Tea House/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body ">
+                      <h2 class="card-title justify-center">Milk Tea</h2>
+                      <p class="justify-center">Creamer could be replaced by fresh milk</p>
+                      
+                    </div>
+                  </div>
+
+            </div>
+            </div>
+        </section>
 
     </main>
 
+        <!-- footer section -->
+
     <footer>
 
-        
+
     </footer>
 </body>
 </html>
