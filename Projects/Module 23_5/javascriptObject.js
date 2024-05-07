@@ -5,47 +5,10 @@ const student={
     isSingle: true,
     act: function actor(){
         console.log('Action: blah blah blah');
-    }
+    },
 
-    friends: ['n', ' a', 'b', 'q'];
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    friends: ['n', ' a', 'b', 'q'],
 
 }
+
+console.log(student);
