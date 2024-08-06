@@ -1,65 +1,44 @@
 // update Phone Inputs
-function updatePhoneNumber(isIncreasing){
-    const phoneInput= document.getElementById('phone-count');
-    let phoneCount = phoneInput.value;
+function updateNumber(product, price, isIncreasing){
+    const input= document.getElementById(product + '-count');
+    let inputCount = input.value;
 
     if(isIncreasing){
-        phoneCount = parseInt(phoneCount)+1;
+        inputCount = parseInt(inputCount)+1;
     
     }else{
-        if(phoneInput.value !=1){
-            phoneCount = parseInt(phoneCount)-1;
+        if(input.value !=1){
+            inputCount = parseInt(inputCount)-1;
             }
     }
 
-    phoneInput.value = phoneCount;
-    const phoneTotalPrice = document.getElementById('phone-price');
-    phoneTotalPrice.innerText = phoneCount*1219;
+    input.value = inputCount;
+    const phoneTotalPrice = document.getElementById(product + '-price');
+    phoneTotalPrice.innerText = inputCount*price;
     
-    
+    // subtotal
+    const subtotalElement= document.getElementById('subtotal');
+    const subtotalText = subtotalElement.value;
+    const subtotal = parseInt(subtotalText)+ parseInt(phoneTotalPrice);
+    subtotalElement.innerText = subtotal;
 }
-
-// update Case Inputs
-function updateCaseNumber(isIncreasing){
-    const caseInput= document.getElementById('case-count');
-    let caseCount = caseInput.value;
-    if(isIncreasing){
-        caseCount = parseInt(caseCount)+1;
-
-    }else{
-        if(caseInput.value !=0){
-            caseCount = parseInt(caseCount)-1;
-            }
-    }
-    caseInput.value = caseCount;
-    const caseTotalPrice = document.getElementById('case-price');
-    caseTotalPrice.innerText = caseCount*59;
-    
-}
-
-// function updatePrice(){
-    
-
-// }
-
 
 document.getElementById('phone-plus').addEventListener('click', function(){
-    const phoneInput= document.getElementById('phone-count');
-    updatePhoneNumber(true);
+    updateNumber('phone',1219,true);
     
 });
 
 document.getElementById('phone-minus').addEventListener('click', function(){
-    updatePhoneNumber(false);
+    updateNumber('phone',1219,false);
 });
 
 
 document.getElementById('case-plus').addEventListener('click', function(){
-    updateCaseNumber(true);
+    updateNumber('case',59,true);
 });
 
 document.getElementById('case-minus').addEventListener('click', function(){
-    updateCaseNumber(false);
+    updateNumber('case',59,false);
 });
 
 
