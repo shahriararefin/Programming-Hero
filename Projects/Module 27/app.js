@@ -25,7 +25,7 @@ function getInput(product){
     return totalInput;
 }
 
-function calculateTotal(){
+function calculateTotal(){ 
     const totalPhone = getInput('phone')*1219;
     const totalCase = getInput('case')*59;
     const subtotal = totalPhone + totalCase;
