@@ -33,10 +33,10 @@ US English
                     <h3 class="">Memory</h3>
                     <div class="grid grid-cols-2 mr-32 mb-1 mt-1">
 
-                    <button class="border px-1 py-1 max-w-44 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">8GB unified memory
+                    <button id="8GB" class="border px-1 py-1 max-w-44 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">8GB unified memory
                     </button>
 
-                    <button id="16GB" class="border px-2 py-1 max-w-44  rounded border-slate-300 text-sm text-gray-500 text-center dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">
+                    <button id="16GB" class="border px-2 py-1 max-w-44  rounded border-slate-300 text-sm text-gray-500 text-center dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">
                         16GB unified memory
 
                     </button>
@@ -46,12 +46,12 @@ US English
                 <div>
                     <h3 class="mb-1 mt-10">Storage</h3>
                     <div class="grid grid-cols-3 max-w-md">
-                        <button class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">256GB SSD storage</button>
-                    <button class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">512GB SSD storage
+                        <button id="256GB" class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">256GB SSD storage</button>
+                    <button id="512GB" class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">512GB SSD storage
 
                     </button>
 
-                    <button class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 max-w-36 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">1TB SSD storage
+                    <button id="1TB" class="border px-1 py-1 rounded border-slate-300 text-sm text-gray-500 max-w-36 text-center mr-1  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">1TB SSD storage
 
                     </button>
                     </div>
@@ -60,15 +60,13 @@ US English
                 <div>
                     <h3 class="mb-1 mt-10">Choose your delivery option</h3>
                     <div class="grid grid-cols-2 max-w-lg">
-                        <button class="border px-2 py-1 rounded mr-1 border-slate-300 text-sm text-gray-500 text-center  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">Friday, Aug 25 FREE Prime Delivery
+                        <button id="freeDelivery" class="border px-2 py-1 rounded mr-1 border-slate-300 text-sm text-gray-500 text-center  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">Friday, Aug 25 FREE Prime Delivery
 
                         </button>
-                    <button class="border px-2 py-1 rounded border-slate-300 text-sm text-gray-500 text-center  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-indigo-950 ">
+                    <button id="delivery" class="border px-2 py-1 rounded border-slate-300 text-sm text-gray-500 text-center  dark:md:hover:bg-black hover:text-white pointer-events-auto focus:border-black ">
                         Friday, Aug 21 Delivery charge $20
                     </button>
                     </div>
-                
-
                 
             </main>
 
@@ -79,15 +77,15 @@ US English
                 </div>
                 <div class="mb-2 grid grid-cols-2 border-b-2 border-slate-100">
                     <p>Extra Memory Cost</p>
-                    <p class="ml-28">$0</p>
+                    <p class="ml-28">$<span id="extraMemory-cost" >0</span></p>
                 </div>
                 <div class="mb-2 grid grid-cols-2 border-b-2 border-slate-100">
                     <p>Extra Storage Cost</p>
-                    <p class="ml-28">$0</p>
+                    <p class="ml-28">$<span id="extraStorage-cost">0</span></p>
                 </div>
                 <div class="mb-2 grid grid-cols-2 border-b-2 border-slate-800">
                     <p>Delivery charge</p>
-                    <p class="ml-28">$0</p>
+                    <p class="ml-28">$<span id="extraDelivery-cost">0</span></p>
                 </div>
                 <div class="mb-2 grid grid-cols-2 border-b-2 border-slate-100">
                     <p>Total Price</p>
