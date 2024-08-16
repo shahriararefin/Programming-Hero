@@ -88,7 +88,3 @@ document.getElementById('delivery').addEventListener('click', function(){
     updatePrice('extraDelivery',20);
     price(1299);
 });
-
-
-
-
