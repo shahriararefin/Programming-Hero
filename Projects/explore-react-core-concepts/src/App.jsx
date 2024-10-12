@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-     
+{/*      
      <h1>Hello React</h1>
      <Person></Person>
      <Student grade={10} score={89}></Student>
@@ -67,6 +67,6 @@ function Device(props){
       <h2>This Device:{props.name} Price: {props.price} </h2>
     </div>
   )
-}
+} */}
 
 export default App
