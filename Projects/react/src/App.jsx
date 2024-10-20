@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './toDo.jsx'
 import Todo from './toDo.jsx'
+import Counter from './Counter.jsx'
 // http://localhost:5173
 function App() {
  
@@ -30,6 +31,12 @@ function App() {
       <Todo task='Learn MongoDB'></Todo> */}
 
     <h3>React Core Concepts Part 2</h3>
+
+        <Counter></Counter>
+
+
+
+
   <button onClick={handleClick}>Button 1</button>
   <button onClick={handleClick2}>Button 2</button>
   
