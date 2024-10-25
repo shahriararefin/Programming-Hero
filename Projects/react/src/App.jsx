@@ -6,6 +6,7 @@ import './toDo.jsx'
 import Todo from './toDo.jsx'
 import Counter from './Counter.jsx'
 import Team from './Team.jsx'
+import Users from './Users.jsx'
 // http://localhost:5173
 function App() {
  
@@ -32,7 +33,8 @@ function App() {
       <Todo task='Learn MongoDB'></Todo> */}
 
     <h3>React Core Concepts Part 2</h3>
-
+    
+        <Users></Users>
         <Team></Team>
         <Counter></Counter>
 
