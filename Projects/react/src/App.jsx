@@ -5,6 +5,7 @@ import './App.css'
 import './toDo.jsx'
 import Todo from './toDo.jsx'
 import Counter from './Counter.jsx'
+import Team from './Team.jsx'
 // http://localhost:5173
 function App() {
  
@@ -32,6 +33,7 @@ function App() {
 
     <h3>React Core Concepts Part 2</h3>
 
+        <Team></Team>
         <Counter></Counter>
 
 
