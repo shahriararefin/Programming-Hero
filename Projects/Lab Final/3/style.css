@@ -1,0 +1,17 @@
+body{
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
