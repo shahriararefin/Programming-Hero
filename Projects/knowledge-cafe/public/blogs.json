@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "author": "Sophia Carter",
+      "cover_img": "https://img.freepik.com/free-vector/flat-world-book-day-horizontal-banner-template_23-2149318430.jpg?t=st=1734339029~exp=1734342629~hmac=3369dc6b7b2c4a4c20529bf593eb2061a7b313e1b7764ea6a7d8940b0fd56fc5&w=1480",
+      "title": "The Future of Artificial Intelligence",
+      "author_img": "https://img.freepik.com/free-vector/blog-post-concept-illustration_114360-244.jpg?t=st=1734339106~exp=1734342706~hmac=6d66190ac6b1970670b29271c15792801dd60f5647a46595041874463e908219&w=1060",
+      "posted_date": "2024-12-01",
+      "reading_time": 8,
+      "hashtags": ["#AI", "#Technology", "#Innovation"]
+    },
+    {
+      "id": 2,
+      "author": "Liam Martinez",
+      "cover_img": "https://img.freepik.com/free-psd/fashion-sale-landing-page_23-2148935595.jpg?t=st=1734339335~exp=1734342935~hmac=6d4f19049f99d7ee56f9d4e312367224b8b42401fa6ecb4f2eac287fb23ac43c&w=1480",
+      "title": "10 Healthy Habits for a Better Life",
+      "author_img": "https://img.freepik.com/free-vector/publish-article-concept-illustration_114360-7255.jpg?t=st=1734339139~exp=1734342739~hmac=fae7ce4cd0ad45db8eda618d44655123c2b2615114e3b579dd02e1755eb33d3d&w=1060",
+      "posted_date": "2024-11-28",
+      "reading_time": 5,
+      "hashtags": ["#Health", "#Wellness", "#Lifestyle"]
+    },
+    {
+      "id": 3,
+      "author": "Emily Johnson",
+      "cover_img": "https://img.freepik.com/free-psd/sales-banner-template-with-bright-colors_23-2148986767.jpg?t=st=1734339301~exp=1734342901~hmac=46aed8b35fd6d8e965354a56fedebcb1d0b5bbeba91e045dc60135fb6a7b306c&w=1480",
+      "title": "Exploring the Wonders of Space",
+      "author_img": "https://img.freepik.com/free-vector/certification-concept-illustration_114360-7182.jpg?t=st=1734339164~exp=1734342764~hmac=63cf8ca201c26e71159631d68aa9879ea6a457d69b124be08c623e6023a6a072&w=1060",
+      "posted_date": "2024-12-03",
+      "reading_time": 12,
+      "hashtags": ["#Space", "#Astronomy", "#Science"]
+    },
+    {
+      "id": 4,
+      "author": "Noah Brown",
+      "cover_img": "https://img.freepik.com/free-vector/flat-sale-banner-template-travel-agency_23-2149581561.jpg?t=st=1734339281~exp=1734342881~hmac=669cd6893f2f7b656dd0b5dbf821945883c5810f7a1b6982b06b102b29475742&w=1480",
+      "title": "Mastering the Art of Public Speaking",
+      "author_img": "https://img.freepik.com/free-vector/stress-concept-illustration_114360-2031.jpg?t=st=1734339164~exp=1734342764~hmac=1a6edca744d2a1a24b1a04e404daa55d17e4ca22762e95c591a30c7d51d55e2a&w=1060",
+      "posted_date": "2024-11-25",
+      "reading_time": 7,
+      "hashtags": ["#PublicSpeaking", "#Communication", "#SelfImprovement"]
+    },
+    {
+      "id": 5,
+      "author": "Ava Davis",
+      "cover_img": "https://img.freepik.com/free-vector/hand-drawn-flat-climate-change-social-media-cover-template_23-2149084626.jpg?t=st=1734339253~exp=1734342853~hmac=2b02dada16cb8abbffd17940b731c106fc1cf6354f0091a8870692c82bfa6e70&w=1480",
+      "title": "A Beginner's Guide to Photography",
+      "author_img": "https://img.freepik.com/free-vector/abstract-creative-website-hosting-illustration_23-2149225960.jpg?t=st=1734339217~exp=1734342817~hmac=ab3996b9f09809e0fb86ad2b2acce3fd6b52da3f6e5d1fab3c608a8fd90169b7&w=1060",
+      "posted_date": "2024-12-10",
+      "reading_time": 6,
+      "hashtags": ["#Photography", "#Creativity", "#Hobby"]
+    }
+  ]
+  
